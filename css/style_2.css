@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/pexels-markusspiske-126790.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(255,255,255,0.5046393557422969) 0%, rgba(0,0,0,0.4990371148459384) 100%) !important;
+    border-bottom:1px solid black ;
+}
+header> nav ul{
+    position: absolute;
+    left: 60%;
+    gap: 80px;
+}
+header> nav ul > li > a {
+    color: white !important;
+}
+.one{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.507);
+    /* box-shadow: -1px 4px 18px 0px rgba(0,0,0,0.75); */
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+}
+.one > ul > video{
+    width: 350px;
+}
+.one > ul > audio{
+    width: 350px;
+}
+.one > a{
+    text-align: center;
+    margin-left: 0px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.one > h1{
+    margin-left: 40%;
+    font-size: 30px;
+}
+.one > ul > p{
+font-size: 12px;
+}
+.one > ul > p > span{
+font-size: 14px;
+}
+article{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    width: 65%;
+    height: 80%;
+    columns: 2;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.carousel-inner img{
+    width: 200px;
+    height: 300px;
+}
+footer{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 95%;
+    background: linear-gradient(260deg, rgba(255,255,255,0.5046393557422969) 0%, rgba(0,0,0,0.4990371148459384) 100%) !important;
+    border-top:1px solid black ;
+}
+footer > h5{
+    color: white;
+}
+footer > h4{
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    color: black;
+}
+@media (max-width: 768px){
+    body{
+    height: 100%;
+    background-color: lightblue;
+    overflow: scroll;
+    }
+    .one{
+        width: 90%;
+        height: 80%;
+        top: 200%;
+        left: 5%;
+    }
+    .one > h1{
+        margin-left: 40%;
+        font-size: 30px;
+    }
+    .one > ul{
+    list-style: none;
+    }
+    article{
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        width: 90%;
+        height: 130%;
+        font-size: 15px;
+        columns: 1;
+    }
+    article > figure > img{
+        margin-left: 5%;
+    }
+    footer{
+        height: 5%;
+        width: 100%;
+        top: 300%;
+    }
+    footer > h5{
+        font-size: 10px;
+    }
+    footer > h4{
+        font-size: 10px;
+    }
+    header> nav ul{
+        padding-top: 50px;
+        top: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.507);
+    }
+    header> nav ul> li{
+        font-size: 20px;
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+
+}

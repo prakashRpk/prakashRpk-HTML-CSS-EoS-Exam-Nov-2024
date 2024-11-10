@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/pexels-s-n-b-m-827240-1819711.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.navbar{
+    background: linear-gradient(90deg, rgba(255,255,255,0.5046393557422969) 0%, rgba(0,0,0,0.4990371148459384) 100%) !important;
+    border-bottom:1px solid black ;
+}
+header> nav ul{
+    position: absolute;
+    left: 60%;
+    gap: 80px;
+}
+header> nav ul > li > a {
+    color: white !important;
+}
+section > div > h1{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-size: 500%;
+}
+section > div > h2{
+    position: absolute;
+    top: 70%;
+    font-size: 300%;
+    left: 40%;
+}
+.one{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.507);
+    border: 1px solid black;
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: 80%;
+    top: 10%;
+    left: 2%;
+}
+.one > ul > li{
+    margin-top: 20px;
+}
+.one > ul > li > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.one > ul > li > a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.one > h1{
+    margin-left: 15%;
+    font-size: 30px;
+}
+.one > ul{
+list-style: none;
+}
+
+article{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    width: 75%;
+    height: 80%;
+    columns: 2;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+article > figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article > figure > img{
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    float: left;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+footer{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 95%;
+    background: linear-gradient(260deg, rgba(255,255,255,0.5046393557422969) 0%, rgba(0,0,0,0.4990371148459384) 100%) !important;
+    border-top:1px solid black ;
+}
+footer > h5{
+    color: white;
+}
+footer > h4{
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    color: black;
+}
+@media (max-width: 768px){
+    body{
+    height: 100%;
+    background-color: lightblue;
+    overflow: scroll;
+    }
+    .one{
+        width: 90%;
+        height: 70%;
+        top: 210%;
+        left: 5%;
+    }
+    .one > h1{
+        margin-left: 40%;
+        font-size: 30px;
+    }
+    .one > ul{
+    list-style: none;
+    }
+    article{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 150%;
+        font-size: 15px;
+        columns: 1;
+    }
+    article > figure > img{
+        margin-left: 5%;
+    }
+    footer{
+        height: 5%;
+        width: 100%;
+        top: 300%;
+    }
+    footer > h5{
+        font-size: 10px;
+    }
+    footer > h4{
+        font-size: 10px;
+    }
+    header> nav ul{
+        padding-top: 50px;
+        top: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.507);
+    }
+    header> nav ul> li{
+        font-size: 20px;
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+
+}
